@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'WithAHEasing' do |ss|
-    ss.dependency 'AHEasing', '~> 1.3'
+    ss.dependency 'AHEasing', :git => 'https://github.com/warrenm/AHEasing.git', :commit => 'bf764c912327ed5b57301ef343983802f11fc09f'
   end
 
 end
