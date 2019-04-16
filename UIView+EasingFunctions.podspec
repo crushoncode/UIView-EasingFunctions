@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'WithAHEasing' do |ss|
-    ss.dependency 'AHEasing', '~1.3'
+    ss.dependency 'AHEasing', '~> 1.3'
   end
 
 end
